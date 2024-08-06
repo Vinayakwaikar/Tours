@@ -1,0 +1,263 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/** NAVBAR **/
+.navbar{
+    background-color: rgba(0, 0, 0,0.8);
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar img{
+    height: 30px;
+}
+
+.icons i{
+    font-size: 20px;
+    margin-right: 15px;
+   
+}
+ /* HERO IMG */
+
+
+.main_img{
+    height: 950px;
+    width: 100%;
+    background-color: black;
+    background-image: url(hero-bg40.jpg);
+    background-size: cover; 
+    filter: opacity(0.95) ;
+    display: flex;
+}
+
+.main_text{
+    display: flex;
+    position: relative;
+    top: 300px;
+    left: 580px;
+}
+
+.div1{
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.div1_text{
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.div1_text p{
+    width: 700px;
+    display:inline-flex;
+    color: #707070;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    text-align: center;  
+}
+
+/** NEXT CONTENT **/
+
+.div2{
+    height: 800px;
+    background-color: rgb(251, 249, 243);
+    display: flex;
+    
+}
+
+.div2_img img{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.div2_text{
+    width: 40%;
+    height: 80%;
+    margin-top: 100px;
+}
+.div2_text p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+
+}
+#p1{
+    font-size: 25px;
+}
+
+/* .div2 button{
+    background-color: rgba(0, 128, 0, 0.65);
+    font-size: 19px;
+    border-radius: 20%;
+    padding: 10px;
+    filter: drop-shadow(2px 2px 20px green);
+} */
+
+.button-9 {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #405cf5;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    font-size: 100%;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 30%;
+  }
+  
+  .button-9:disabled {
+    cursor: default;
+  }
+  
+  .button-9:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+  }
+
+
+/** TOUR Packages **/
+
+.tourpackage{
+    height: 1270px;
+    background-color: white;
+}
+
+.tourpackage_text{
+    text-align: center;
+    margin-top: 50px;
+}
+.tourpackage_text h2{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tourpackage_text p{
+    text-align:center;
+    margin-left: 380px;
+    margin-top: 50px;
+    font-size: 25px;
+    width: 800px;
+}
+.tourpackage_imgs{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tourpackage_imgs_1{
+    width: 18%;
+    height: 350px;
+    margin: 50px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.tourpackage_imgs_1:hover{
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: #707070;
+    box-sizing: border-box;
+    color: white;
+    transition: all 1s ease-in 1ms;
+    transition-delay: 10ms;
+}
+.tourpackage_imgs_1 img{
+    border-radius: 20px;
+    object-fit: fill;
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box;
+
+    
+}
+.tourpackage_imgs_1 h5{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+.tourpackage_imgs_1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/** FOOTER **/
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #4A3B34;
+
+}
+
+.footer h4{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.address{
+    width: 20%;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 100px;
+    color: wheat;
+    line-height: 30px;
+}
+.address i{
+    color:#ffcb9a;
+    font-size: 40px;
+}
+.address h3{
+    margin-top: 10px;
+}
+
+.footer_2{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    vertical-align:middle;
+    padding-top: 25px;
+
+}
